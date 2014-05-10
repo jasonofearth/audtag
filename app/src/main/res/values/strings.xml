@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title">AudTag!</string>
+    <string name="app_name">AudTag</string>
+    <string name="desc_title">Description</string>
+<string name="record">Record</string>
+<string name="stop_record">Stop Recording</string>
+<string name="play">Play</string>
+
+
+</resources>

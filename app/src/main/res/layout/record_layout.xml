@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/record" android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/title" />
+	<TextView android:layout_width="fill_parent" android:id="@+id/ErrorText"
+		android:layout_height="wrap_content" />
+
+	<EditText android:id="@+id/description" android:text="Enter description here"
+		android:layout_height="150px" android:layout_width="200px"></EditText>
+	<Button android:text="@string/record" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/RecordButton"></Button>
+	<Button android:text="@string/stop_record" android:id="@+id/StopRecordButton" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+	
+	<Button android:text="@string/play" android:clickable="false" android:id="@+id/PlayButton" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/Upload"
+		android:clickable="false"
+		android:text="Tag!"></Button>
+
+
+
+</LinearLayout>
